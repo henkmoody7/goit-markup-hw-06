@@ -387,7 +387,12 @@
         <div class="footer-contact">
           <p class="footer-text">Подпишитесь на рассылку</p>
           <form>
-            <input type="email" placeholder="E-mail" class="footer-contact__input" name="user-email"/>
+            <input
+              type="email"
+              placeholder="E-mail"
+              class="footer-contact__input"
+              name="user-email"
+            />
             <button type="submit" class="footer-contact__btn hero-button">
               Подписаться
               <svg width="24" height="24" class="hero-button__icon">
@@ -410,39 +415,48 @@
           <label class="modal__label"
             >Имя
             <span class="input-wrap">
-              <input type="text" class="modal__input input" name="user-name"/>
+              <input type="text" class="modal__input input" name="user-name" />
               <svg class="input__icon">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </span>
           </label>
+
           <label class="modal__label"
             >Телефон
             <span class="input-wrap">
               <input type="tel" class="modal__input" name="user-tel" />
-               <svg class="input__icon">
+              <svg class="input__icon">
                 <use href="./images/icons.svg#icon-phone-icon"></use>
-               </span>
+              </svg>
+            </span>
           </label>
           <label class="modal__label"
             >Почта
             <span class="input-wrap">
-              <input type="email" class="modal__input" name="user-email" /> 
+              <input type="email" class="modal__input" name="user-email" />
               <svg class="input__icon">
                 <use href="./images/icons.svg#icon-email-icon"></use>
+              </svg>
             </span>
-         </label>
+          </label>
           <label class="modal__label"
             >Комментарий
-            <textarea name="modal-text" class="modal__text" placeholder="Введите текст" name="comments"></textarea>
+            <textarea name="modal-text" class="modal__text" placeholder="Введите текст"></textarea>
           </label>
           <label class="checkbox-text"
-            >Соглашаюсь с рассылкой и принимаю <a href="#" class="modal__link link">Условия договора</a>
+            >Соглашаюсь с рассылкой и принимаю
+            <a href="#" class="modal__link link">Условия договора</a>
             <span class="checkbox-wrap">
-            <input type="checkbox" class="modal__checkbox visually-hidden" name="modal-checkbox"/>
-             <svg class="checkbox-icon">
+              <input
+                type="checkbox"
+                class="modal__checkbox visually-hidden"
+                name="modal-checkbox"
+              />
+              <svg class="checkbox-icon">
                 <use href="./images/icons.svg#icon-icon-check"></use>
-                </span>
+              </svg>
+            </span>
           </label>
           <button type="submit" class="modal__btn hero-button">Отправить</button>
         </form>
